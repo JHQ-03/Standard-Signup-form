@@ -1,0 +1,102 @@
+body{
+    margin: 10px;
+    padding: 5px;
+    background: linear-gradient(45deg,#2096A7,#53039A,#3C0D38);
+    height: 100vh;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.login{
+    width: 300px;
+    overflow: none;
+    margin: auto;
+    margin: 18 0 0 500px;
+    padding: 75px;
+    background: #23245f;
+    border-radius: 20px;
+}
+h2{
+    text-align: center;
+    color: aliceblue;
+    padding: 20px;
+    margin-top: 10px;
+}
+h3{
+    text-align: center;
+    color: aliceblue;
+    margin-top: 5px;
+}
+p{
+    text-align: center;
+    color: aliceblue;
+}
+.social{
+    text-align: center;
+}
+.social ul li{
+    list-style: none;
+    display: inline-block;
+}
+.social ul li a i{
+    color: black;
+    height: 30px;
+    width: 30px;
+    background-color: aqua;
+    line-height: 30px;
+    border-radius: 100%;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.social ul li a i:hover{
+    transform: scale(1.4);
+    transition: 0.5s;
+}
+label{
+    color: darkseagreen;
+    font-size: 15px;
+}
+#UserName{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+#email{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+#Pass{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+#Pass2{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+#log{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 9px;
+    color: darkgreen;
+}
+span{
+    color: aquamarine;
+    font-size: 14px;
+}
+a{
+    color: red;
+}
